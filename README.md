@@ -5,8 +5,9 @@
 This project implements machine learning models to predict student final grades and identify at-risk students using the UCI Student Performance dataset. The solution includes a regression model for grade prediction and a classification model for dropout risk identification.
 
 **Key Results:**
-- Regression Model: RMSE 3.65, R² 0.14
-- Classification Model: 78% Accuracy, 0.69 ROC-AUC
+- **Regression Model:** RMSE 3.65, R² 0.14 (predicts grades within ±3.6 points on average)
+- **Classification Model:** ROC-AUC 0.69, Precision 50%, Recall 43%, F1 0.47, Accuracy 78%
+
 
 ## Project Structure
 
